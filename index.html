@@ -57,7 +57,7 @@
 
         <h4 class="main__description">TU NUEVA PLATAFORMA DE STREAMING DE<br/>ANIME Y MANGA FAVORITA</h4>
 
-        <div class="main__form">
+        <form id="confirmar" class="main__form">
             <img src="resources/koifish.png" alt="koifish">
             
             <div class="main__formData">
@@ -68,12 +68,13 @@
 
                 <div class="main__formEmail">
                     <span>Correo</span>
-                    <input class="main__input" type="email" placeholder="Ej: johndoe@gmail.com">
+                    <input class="main__input" name="email" type="email" placeholder="Ej: johndoe@gmail.com">
                 </div>
 
-                <button class="main__button2">CONFIRMAR</button>
+                <input type="submit" class="main__button2" value="CONFIRMAR">
+                
             </div>
-        </div>
+        </form>
     </main>
 
     <footer class="footer">
@@ -81,5 +82,5 @@
     </footer>
 </body>
 <script src="utils.js"></script>
-<script src="index.js"></script>
+<script type="module" src="index.js"></script>
 </html>
