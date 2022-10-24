@@ -1,0 +1,271 @@
+@media all and (max-width: 768px){
+    .header{
+        &__nav{
+            flex-direction: column;
+            justify-content: space-between;
+            margin-left: 2vw;
+            margin-right: 2vw;
+            margin-top: 1.5vw;
+            margin-bottom: 1.5vw;
+            align-items: center;
+        }
+
+        &__navLogo{
+            height: 6vw;
+            margin-top: 2vw;
+        }
+
+        &__navsocial{
+            margin-top: 3vw;
+        }
+
+        &__navsocial img{
+            height: 4vw;
+            margin-left: 1.5vw;
+            margin-right: 1.5vw;
+        }
+    }
+
+    .main{
+
+        &__button{
+            margin-top: 1.6vw;
+            padding-left: 3.5vw;
+            padding-right: 3.5vw;
+            padding-top: 2.5vw;
+            padding-bottom: 2.5vw;
+            font-size: 2vw;
+        }
+        
+        &__description{
+            margin-top: 1vw;
+            margin-bottom: 5vw;
+            line-height: 4vw;
+            font-size: 2vw;
+            letter-spacing: 1vw;
+        }
+    
+        &__form{
+            flex-direction: column-reverse;
+            align-items: center;
+            background-color: #242A3C;
+            width: 80%;
+            border-radius: 4.5vw;
+        }
+
+        &__form img{
+            content:url("resources/koifishresponsive.png");
+            width: 100%;
+        }
+
+        &__formData{
+            display: flex;
+            flex-direction: column;
+            padding-top: 5vw;
+            padding-bottom: 5vw;
+            padding-left: 2vw;
+            padding-right: 2vw;
+            align-items: center;
+        }
+
+        &__formData h2{
+            margin-bottom: 1vw;
+            font-size: 3vw;
+        }
+
+        &__formData p{
+            font-weight: 400;
+            font-size: 2.5vw;
+        }
+
+        &__formTexto{
+            margin-bottom: 5vw;
+        }
+
+        &__formEmail{
+            width: 100%;
+        }
+
+        &__formEmail span{
+            font-size: 2vw;
+            margin-bottom: 1vw;
+        }
+
+        &__input{
+            padding-top: 2vw;
+            padding-bottom: 2vw;
+            padding-left: 3vw;
+            padding-right: 3vw;
+            font-size: 3vw;
+            border-radius: 1vw;
+            margin-bottom: 5vw;
+            width: 100%;
+        }
+
+        &__button2 {
+            margin-top: 1.6vw;
+            padding-left: 6vw;
+            padding-right: 6vw;
+            padding-top: 3vw;
+            padding-bottom: 3vw;
+            font-weight: 700;
+            font-size: 2vw;
+            width: 100%;
+        }
+    }
+
+    .footer{
+        margin-bottom: 5vw;
+    
+        &__logo{
+            width: 10vw;
+        }
+    }
+}
+
+@media all and (max-width: 480px){
+    
+    .header{
+        &__nav{
+            flex-direction: column;
+            justify-content: space-between;
+            margin-left: 2vw;
+            margin-right: 2vw;
+            margin-top: 1.5vw;
+            margin-bottom: 1.5vw;
+            align-items: center;
+        }
+
+        &__navLogo{
+            height: 6vw;
+            margin-top: 2vw;
+        }
+
+        &__navsocial{
+            margin-top: 3vw;
+        }
+
+        &__navsocial img{
+            height: 4vw;
+            margin-left: 1.5vw;
+            margin-right: 1.5vw;
+        }
+    }
+
+    .main{
+        &__image img{
+            content:url("resources/mainimageresponsive.png")
+        }
+
+        &__imageinfo{
+
+            margin-top: 50vw;
+            margin-left: 40vw;
+            
+        }
+        &__imageh2{
+            margin-top: 13vw;
+            margin-left: 18vw;
+            font-size: 3vw;
+        }
+
+        &__imageinfo h1{
+            font-size: 10vw;
+            font-weight: 900;
+        }
+
+        &__imageinfo h2{
+            font-size: 6vw;
+            font-weight: 900;
+        }
+
+        &__button{
+            margin-top: 1.6vw;
+            padding-left: 6vw;
+            padding-right: 6vw;
+            padding-top: 3vw;
+            padding-bottom: 3vw;
+            font-weight: 700;
+            font-size: 2vw;
+        }
+        
+        &__description{
+            margin-top: 5vw;
+            margin-bottom: 5vw;
+            line-height: 4vw;
+            font-size: 2vw;
+            letter-spacing: 1vw;
+        }
+
+        &__form{
+            flex-direction: column-reverse;
+            align-items: center;
+            background-color: #242A3C;
+            width: 80%;
+        }
+
+        &__form img{
+            content:url("resources/koifishresponsive.png");
+            width: 100%;
+        }
+
+        &__formData{
+            display: flex;
+            flex-direction: column;
+            padding-top: 5vw;
+            padding-bottom: 5vw;
+            padding-left: 2vw;
+            padding-right: 2vw;
+            align-items: center;
+        }
+
+        &__formData h2{
+            margin-bottom: 1vw;
+            font-size: 3vw;
+        }
+
+        &__formData p{
+            font-weight: 400;
+            font-size: 2.5vw;
+        }
+
+        &__formTexto{
+            margin-bottom: 5vw;
+        }
+
+        &__formEmail span{
+            font-size: 2vw;
+            margin-bottom: 1vw;
+        }
+
+        &__input{
+            padding-top: 2vw;
+            padding-bottom: 2vw;
+            padding-left: 3vw;
+            padding-right: 3vw;
+            font-size: 3vw;
+            border-radius: 1vw;
+            margin-bottom: 5vw;
+            width: 100%;
+        }
+
+        &__button2 {
+            margin-top: 1.6vw;
+            padding-left: 6vw;
+            padding-right: 6vw;
+            padding-top: 3vw;
+            padding-bottom: 3vw;
+            font-weight: 700;
+            font-size: 2vw;
+            width: 100%;
+        }
+    }
+
+    .footer{
+        margin-bottom: 5vw;
+    
+        &__logo{
+            width: 10vw;
+        }
+    }
+}

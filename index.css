@@ -47,7 +47,7 @@ h1, h2, h4, p, span {
 
 .header__navLogo {
   height: 2.5vw;
-  margin-left: 15px;
+  margin-left: 1vw;
 }
 
 .header__navsocial img {
@@ -98,7 +98,7 @@ h1, h2, h4, p, span {
 .main__imageinfo {
   position: absolute;
   margin-top: 25vw;
-  margin-left: 10vw;
+  margin-left: 16vw;
 }
 
 .main__imageh2 {
@@ -106,6 +106,7 @@ h1, h2, h4, p, span {
   margin-top: 8vw;
   margin-left: 35vw;
   font-size: 2.2vw;
+  letter-spacing: 0.4vw;
 }
 
 .main__imageinfo h1 {
@@ -113,7 +114,7 @@ h1, h2, h4, p, span {
   font-weight: 900;
 }
 
-.main__imageinfoh2 {
+.main__imageinfo h2 {
   font-size: 5vw;
   margin-bottom: -2vw;
   font-weight: 900;
@@ -220,6 +221,7 @@ h1, h2, h4, p, span {
   font-size: 1vw;
   border-radius: 0.2vw;
   margin-bottom: 2vw;
+  letter-spacing: 0.2vw;
 }
 
 .main__button2 {
@@ -245,7 +247,7 @@ h1, h2, h4, p, span {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding-bottom: 5vw;
+  margin-bottom: 5vw;
   width: 100%;
 }
 
